@@ -1,0 +1,17 @@
+Krishnamurthy number is a special number. A number is said to be Krishnamurthy if the factorial sum of all its digits is equal to that number. 
+Krishnamurthy number is also referred to as a Strong number. Just like Prime and Armstrong numbers, Krishnamurthy number is also frequently asked 
+by the interviewers but with it's another name, i.e., Strong number.
+
+These are the following steps which we use to check Krishnamurthy number
+
+We first take a number.
+We then find the factorial of each digit of the number.
+We add the factorial of each digit and store it into another variable.
+If the sum of the factorial of each digit is the same as the original number, the number is a Krishnamurthy number.
+Let's take an example of Krishnamurthy number.
+
+Number = 145  
+= 1! + 4! + 5!  
+= 1 + ( 4 * 3 * 2 * 1 ) + ( 5 * 4 * 3 * 2 * 1 )  
+= 1 + 24 + 120  
+= 145  
